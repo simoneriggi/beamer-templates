@@ -8,8 +8,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%          INCLUDES 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage{templates/beamerthemekitbase}
-
 \usepackage[english,italian]{babel}
 \usepackage{ifthen,xifthen} %For choosing the language, see below
 \usepackage{etoolbox}
@@ -241,45 +239,78 @@
 %%%             COLORS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage{templates/beamercolortheme-inaf}
-\definecolor{kit-green100}{rgb}{0,.59,.51}
-\definecolor{kit-green70}{rgb}{.3,.71,.65}
-\definecolor{kit-green50}{rgb}{.50,.79,.75}
-\definecolor{kit-green30}{rgb}{.69,.87,.85}
-\definecolor{kit-green15}{rgb}{.85,.93,.93}
+\definecolor{green100}{rgb}{0,.59,.51}
+\definecolor{green70}{rgb}{.3,.71,.65}
+\definecolor{green50}{rgb}{.50,.79,.75}
+\definecolor{green30}{rgb}{.69,.87,.85}
+\definecolor{green15}{rgb}{.85,.93,.93}
 
-\definecolor{kit-blue100}{rgb}{.27,.39,.67}
-\definecolor{kit-blue70}{rgb}{.49,.57,.76}
-\definecolor{kit-blue50}{rgb}{.64,.69,.83}
-\definecolor{kit-blue30}{rgb}{.78,.82,.9}
-\definecolor{kit-blue15}{rgb}{.89,.91,.95}
+\definecolor{blue100}{rgb}{.27,.39,.67}
+\definecolor{blue70}{rgb}{.49,.57,.76}
+\definecolor{blue50}{rgb}{.64,.69,.83}
+\definecolor{blue30}{rgb}{.78,.82,.9}
+\definecolor{blue15}{rgb}{.89,.91,.95}
 
-\definecolor{kit-yellow100}{cmyk}{0,.05,1,0}
-\definecolor{kit-yellow70}{cmyk}{0,.035,.7,0}
-\definecolor{kit-yellow50}{cmyk}{0,.025,.5,0}
-\definecolor{kit-yellow30}{cmyk}{0,.015,.3,0}
-\definecolor{kit-yellow15}{cmyk}{0,.0075,.15,0}
+\definecolor{yellow100}{cmyk}{0,.05,1,0}
+\definecolor{yellow70}{cmyk}{0,.035,.7,0}
+\definecolor{yellow50}{cmyk}{0,.025,.5,0}
+\definecolor{yellow30}{cmyk}{0,.015,.3,0}
+\definecolor{yellow15}{cmyk}{0,.0075,.15,0}
 
-\definecolor{kit-orange100}{cmyk}{0,.45,1,0}
-\definecolor{kit-orange70}{cmyk}{0,.315,.7,0}
-\definecolor{kit-orange50}{cmyk}{0,.225,.5,0}
-\definecolor{kit-orange30}{cmyk}{0,.135,.3,0}
-\definecolor{kit-orange15}{cmyk}{0,.0675,.15,0}
+\definecolor{orange100}{cmyk}{0,.45,1,0}
+\definecolor{orange70}{cmyk}{0,.315,.7,0}
+\definecolor{orange50}{cmyk}{0,.225,.5,0}
+\definecolor{orange30}{cmyk}{0,.135,.3,0}
+\definecolor{orange15}{cmyk}{0,.0675,.15,0}
 
-\definecolor{kit-red100}{cmyk}{.25,1,1,0}
-\definecolor{kit-red70}{cmyk}{.175,.7,.7,0}
-\definecolor{kit-red50}{cmyk}{.125,.5,.5,0}
-\definecolor{kit-red30}{cmyk}{.075,.3,.3,0}
-\definecolor{kit-red15}{cmyk}{.0375,.15,.15,0}
+\definecolor{red100}{cmyk}{.25,1,1,0}
+\definecolor{red70}{cmyk}{.175,.7,.7,0}
+\definecolor{red50}{cmyk}{.125,.5,.5,0}
+\definecolor{red30}{cmyk}{.075,.3,.3,0}
+\definecolor{red15}{cmyk}{.0375,.15,.15,0}
+
+\definecolor{verbgray}{gray}{0.9}
+\definecolor{shadecolor}{rgb}{.9, .9, .9}
+\definecolor{lightred}{rgb}{0.96,0.81,0.81}
+
+\definecolor{verylightceleste}{rgb}{0.91, 0.93, 0.97}
+\definecolor{lightceleste}{rgb}{0.75, 0.81, 0.98}
+\definecolor{celeste}{rgb}{0.45, 0.58, 0.82}
+\definecolor{white}{rgb}{1., 1., 1.}
+\definecolor{darkblue}{rgb}{0.10, 0.35, 0.99}
+\definecolor{darkblue2}{rgb}{0.10, 0.24, 0.59}
+\definecolor{verydarkblue}{rgb}{0.05, 0.10, 0.24}
+\definecolor{black}{rgb}{0., 0., 0.}
+\definecolor{lightviolet}{rgb}{0.95, 0.89, 0.96}
+\definecolor{violet}{rgb}{0.7, 0.28, 0.70}
+\definecolor{darkviolet}{rgb}{0.42, 0.24, 0.41}
+\definecolor{green}{rgb}{0.18, 0.41, 0.02}
+\definecolor{lightgreen}{rgb}{0.62, 0.75, 0.43}
+\definecolor{darkgreen}{rgb}{0.27, 0.34, 0.16}
+\definecolor{yellow}{rgb}{1, 1, 0}
+%\definecolor{darkyellow}{rgb}{0.8, 1, 0.03}
+\definecolor{darkyellow2}{rgb}{1, 0.890196,0.427451}
+\definecolor{darkyellow}{rgb}{0.87, 0.87, 0.03}
+\definecolor{darkyellow3}{rgb}{1,0.933333,0.654902}
+\definecolor{gray}{rgb}{0.14, 0.14, 0.15}
+\definecolor{lightgray}{rgb}{0.70, 0.72, 0.74}
+\definecolor{silver}{rgb}{0.91, 0.91, 0.91}
+\definecolor{Blueb}{cmyk}{0.2,0,0,0}
+
+\definecolor{darkgray}{rgb}{0.137255,0.215686,0.231373}
+\definecolor{orange}{rgb}{0.933333,0.584314,0.247059}
+\definecolor{silver}{rgb}{0.91, 0.91, 0.91}
 
 \definecolor{inaf-lightblue}{rgb}{0,0.678431,0.937255}
 \definecolor{inaf-darkblue}{rgb}{0.121569,0.309804,0.639216}
 \definecolor{inaf-blue}{rgb}{0.0745098,0.470588,0.780392}
 \definecolor{inaf-blue2}{rgb}{0,0.4,0.6}
+\definecolor{inaf-gray}{rgb}{0.388235,0.411765,0.431373}
 
 \mode<presentation>
 
 \setbeamercolor*{normal text}{fg=black,bg=white}
-\setbeamercolor*{alerted text}{fg=kit-red100}
+\setbeamercolor*{alerted text}{fg=red100}
 \setbeamercolor*{example text}{fg=black}
 \setbeamercolor*{structure}{fg=black}
 
@@ -299,13 +330,13 @@
 
 \setbeamercolor*{item projected}{fg=black,bg=inaf-lightblue}
 
-\setbeamercolor*{block title}{fg=white,bg=kit-green100}
+\setbeamercolor*{block title}{fg=white,bg=green100}
 \setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=alerted text.fg!75!black}
-\setbeamercolor*{block title example}{fg=white,bg=kit-blue100}
+\setbeamercolor*{block title example}{fg=white,bg=blue100}
 
-\setbeamercolor*{block body}{fg=black,bg=kit-green15}
+\setbeamercolor*{block body}{fg=black,bg=green15}
 \setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!10!bg}
-\setbeamercolor*{block body example}{fg=black,bg=kit-blue15}
+\setbeamercolor*{block body example}{fg=black,bg=blue15}
 
 \setbeamercolor*{separation line}{}
 \setbeamercolor*{fine separation line}{}
@@ -361,7 +392,12 @@
 \color{inaf-blue}
 \pgfusepath{fill}
 \end{pgfpicture}%
-}
+}%%
+
+%\setbeamertemplate{itemize subitem}{\color{inaf-gray} $\blacktriangleright$}
+\setbeamertemplate{itemize subitem}{\color{inaf-gray} $\circ$}
+\setbeamertemplate{itemize subsubitem}{\color{inaf-lightblue} $\checkmark$}
+
 
 %%%   TITLE PAGE %%%%%%%
 \setbeamertemplate{title page}
@@ -390,13 +426,13 @@
   %%% TITLE TEXT ***
   \begin{textblock*}{120mm}(6mm,16mm)
     \begin{beamercolorbox}[wd=118mm,ht=14mm,dp=3mm,left]{white}%
-      {\ECFAugie\huge\textbf{\inserttitle}}
+      {\ECFAugie\Huge\textbf{\inserttitle}}
     \end{beamercolorbox}
   \end{textblock*}
 
   %%% AUTHOR %%%
   \begin{textblock*}{120mm}(6mm,34mm)
-    \large\insertauthor~\textendash~\insertinstitute~%
+    \Large\insertauthor~\textendash~\insertinstitute~%
   \end{textblock*}
 
   %%%% SUBTITLE/CONFERENCE NAME %%%
@@ -432,11 +468,23 @@
       }
   \end{textblock*}
 
+   %%% RECTANGLE
+  \begin{textblock*}{\paperwidth}(1mm,45mm)
+    \begin{pgfpicture}{0mm}{0mm}{\paperwidth-2mm}{8mm}
+      \color{inaf-lightblue}
+      \pgfpathrectangle{\pgfpoint{0mm}{0mm}}{\pgfpoint{\paperwidth-2mm}{8mm}}
+      \pgfusepath{fill}
+      %\pgftext[at=\pgfpoint{5mm}{3mm},left,center]{\textcolor{white}{\tiny\uppercase\expandafter{\insertinstitute}}}
+    \end{pgfpicture}
+  \end{textblock*}
+  
   %%% TITLE IMAGE
   \ifdef{\@titleimage}
   {
-  \begin{textblock*}{\paperwidth}(1mm,45mm)
-    \begin{overpic}[width=126mm,height=48.5mm]{\@titleimage}
+  %\begin{textblock*}{\paperwidth}(1mm,45mm)
+  \begin{textblock*}{\paperwidth}(1mm,48mm)
+    %\begin{overpic}[width=126mm,height=48.5mm]{\@titleimage}
+    \begin{overpic}[width=126mm,height=45.5mm]{\@titleimage}
     \put(-6,-3){
 	%mask curve for lower left corner of title image
 	\begin{pgfpicture}{0mm}{0mm}{3mm}{3mm}
@@ -493,7 +541,11 @@
 \setbeamertemplate{frametitle}
 {
   \vspace{4mm} %\hspace*{-4mm}
-  \vbox{\hsize=12cm\bfseries\strut\insertframetitle\strut}
+  \vbox{
+    \hsize=10cm
+    \bfseries
+    \strut\fontsize{16pt}{8pt}\selectfont{\insertframetitle}\strut
+  }
 
   \ifdef{\@institutionlogo}
   { 
@@ -540,7 +592,7 @@
 \else
 {
 
-\hskip12.4cm%
+\hskip12.3cm%
 %\hskip4pt%
 \textcolor{white}{\textbf{\insertframenumber{}/\inserttotalframenumber}}
 \vskip2.5pt 
